@@ -1,2 +1,10 @@
-RewriteEngine on 
-RewriteRule ^(.*)$ https://healthfromherbal.com/ [R=301,L]
+#RewriteEngine on 
+#RewriteRule ^(.*)$ https://healthfromherbal.com/ [R=301,L]
+
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^softop.vercel.app\.com$ [NC]
+RewriteRule ^(.*)$ https://healthfromherbal.com [R=301,L]
+
+
